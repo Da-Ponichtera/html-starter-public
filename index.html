@@ -1,20 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
+
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
     />
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+height: 100vh;
+}
+section#hero {
+  padding-top: 5vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-image: url('Messenger_creation_A45AE44B-C271-46F6-9EB4-DA30E2C39F14.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+}
+
+.gradient {
+  background: linear-gradient(310deg, #00c3ff, #8400ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+
+section.hero span {
+  font-weight: 300;
+  font-size: smaller;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+section.hero h1 {
+  margin: 0;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 3rem;
+  font-size: xx-large;
+  font-style: normal;
+}
+
+    </style>
   </head>
   <body>
- 
+ <header>
+   <main class="gradient">
+     <section id="hero">
+        <h1>Denis Załęcki</h1>
+        <span>Strzela z ucha</span> <div></div>
+     </section>
+   </main>
+ </header>
   </body>
 </html>
